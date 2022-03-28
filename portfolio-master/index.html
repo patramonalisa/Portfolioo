@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <!-- Bootstrap Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container navigation pt-3">
+      <div class="row">
+        <div class="col-6 d-flex justify-content-start align-items-center">
+          <i class="fas fa-code fa-2x text-warning pb-3"></i>
+          <h5 class="d-inline pl-2 text-white">Portfolio</h5>
+        </div>
+        <div class="col-6 pt-2">
+          <div
+            class="row text-center p-0 d-flex justify-content-end align-items-center"
+          >
+            <div class="col-3">
+              <a href="#Introduction" class="text-white navigation-link">Introduction</a>
+            </div>
+            <div class="col-3">
+              <a href="#projects" class="text-white navigation-link"
+                >Projects</a
+              >
+            </div>
+            <div class="col-3">
+              <a href="#Blogs" class="text-white navigation-link"
+                >Blogs</a
+              >
+            </div>
+            <div class="col-3">
+              <a
+                href="#Feedback"
+                class="text-white navigation-link"
+                >Feedback</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="main-container container">
+      <div class="row main_row">
+        <div class="col-6">
+          <h2 class="text-white">Hello, I'm</h2>
+          <h1 class="text-warning m-heading">Monalisa Patra</h1>
+          <h2 class="text-white">Full Stack Developer</h2>
+        </div>
+        <div class="col-6">
+          <img
+            src="portfolio-template/images/1112.jpg"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="Introduction" class="container about p-5">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="portfolio-template/images/bg(2).webp" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="portfolio-template/images/Screenshot_1.webp" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="portfolio-template/images/bg(2).webp" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+      <!-- <div class="row">
+        <div class="col-6">
+          <img src="./images/about_img.svg" class="img-fluid" />
+        </div>
+        <div class="col-6 pl-5 pt-5 pb-5 text-white">
+          <h3 class="text-warning">About Me</h3>
+          <h1 class="m-heading">A little bit about me</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
+            eligendi natus, ex maiores
+            <b class="text-warning">quaerat provident</b> iusto tenetur vero
+            ipsum. Beatae expedita obcaecati odio dignissimos itaque nulla
+            voluptatum doloremque sed iusto!
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
+            magni <b class="text-warning">adipisci sunt eum</b>, reprehenderit
+            dignissimos quaerat maiores ad. Magni, totam iure. Doloribus ea
+            <b class="text-warning">molestiae deleniti</b> excepturi iure neque,
+            harum illum!
+          </p>
+          <button class="btn btn-outline-warning">Learn More</button>
+        </div>
+      </div> -->
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects" class="container mt-5 pt-5">
+      <h1 class="text-warning mb-3 pb-2">My Projects</h1>
+      <div class="row">
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/messaging.svg"
+              class="card-img-top"
+              style="height: 13rem;"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Messaging Web App</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/fitness.svg"
+              class="card-img-top img-fluid"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Fitness Web App</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/e_commerce_platform.svg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">E-Commerce Platform</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/music.svg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Music Player</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/photography.svg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Photography Platform</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/web_scraping.svg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Manga Scraping Web App</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- blogs -->
+
+    
+     <div id="Blogs" class="container mt-5 pt-5">
+      <h1 class="text-warning mb-3 pb-2">Blogs</h1>
+      <div class="row">
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="portfolio-template/images/b2.jpg"
+              class="card-img-top"
+              style="height: 13rem;"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">sunt aut facere repellat provident occaecati excepturi optio reprehenderit</h5>
+              <p class="card-text">
+               quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit...
+              </p>
+              <!-- <a href="#" class="btn btn-warning">See Project</a> -->
+              
+               <button type="button" class="btn btn-warning"  data-toggle="modal" data-target="#exampleModa3">
+                  see more
+                </button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModa3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">sunt aut facere repellat provident occaecati excepturi optio reprehenderit</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnos.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="portfolio-template/images/b1.jpg"
+              class="card-img-top img-fluid"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">qui est esse</h5>
+              <p class="card-text">
+                est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non... 
+              </p>
+              <!-- <a href="#" class="btn btn-warning">See Project</a> -->
+
+              <button type="button" class="btn btn-warning"  data-toggle="modal" data-target="#exampleModa4">
+  see more
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModa4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">qui est esse</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+         est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="portfolio-template/images/b3.jpg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">ea molestias quasi exercitationem repellat qui ipsa sit aut</h5>
+              <p class="card-text">
+                et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis...
+              </p>
+              <!-- <a href="#" class="btn btn-warning">See Project</a> -->
+
+              <button type="button" class="btn btn-warning"  data-toggle="modal" data-target="#exampleModa5">
+  see more
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModa5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">ea molestias quasi exercitationem repellat qui ipsa sit aut</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+         et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="portfolio-template/images/bg(2).webp"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">eum et est occaecati</h5>
+              <p class="card-text">
+                ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam ...
+              </p>
+              <!-- <a href="#" class="btn btn-warning">See Project</a> -->
+
+              <button type="button" class="btn btn-warning"  data-toggle="modal" data-target="#exampleModa6">
+  see more
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModa6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">eum et est occaecati</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="portfolio-template/images/Screenshot_1.webp"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">nesciunt quas odio</h5>
+              <p class="card-text">
+                repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque...
+              </p>
+              <!-- <a href="#" class="btn btn-warning">See Project</a> -->
+             
+              <button type="button" class="btn btn-warning"  data-toggle="modal" data-target="#exampleModal">
+  see more
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">nesciunt quas odio</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+         repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+            
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="portfolio-template/images/b1.jpg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">dolorem eum magni eos aperiam quia</h5>
+              <p class="card-text">
+                ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspiciatis...
+              </p>
+          
+              <button type="button" class="btn btn-warning"  data-toggle="modal" data-target="#exampleModa2">
+  see more
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModa2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">dolorem eum magni eos aperiam quia</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspiciatis et ea nemo ab reprehenderit accusantium quas\nvoluptate dolores velit et doloremque molestiae.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+            
+              <!-- <a href="#" class="btn btn-warning">See Project</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Feedback form -->
+
+        <div id="Feedback" class="container mt-5 pt-5">
+      <!-- <h1 class="text-warning mb-3 pb-2">My Feedback Form</h1> -->
+      <h4 class="text-warning">My Feedback Form</h4>
+        <h1 class="m-heading" style="color: white;">Let's be friends</h1>
+      </br></br>
+      <div class="row">
+      
+        <form method="post">
+          <script type="text/javascript">
+window.onload = function(){
+
+   document.getElementById('send').onclick = function(e){
+      var name = document.getElementById("name").value;
+      var date = document.getElementById("date").value;
+      var inputAddress = document.getElementById("inputAddress").value;
+      var inputAddress2 = document.getElementById("inputAddress2").value;
+      // Gender
+      var gender = ""
+      if (document.getElementById('gridRadios1').checked) {
+        gender = document.getElementById('gridRadios1').value;
+      }
+      else if (document.getElementById('gridRadios2').checked) {
+        gender = document.getElementById('gridRadios2').value;
+      }
+      else if (document.getElementById('gridRadios3').checked) {
+        gender = document.getElementById('gridRadios3').value;
+      }
+      // CheckBox
+      var category = ""
+
+
+
+      if (document.getElementById('gridCheck1').checked == true) {
+        category = category +" "+ document.getElementById('gridCheck1').value;
+      }
+      else if (document.getElementById('gridCheck2').checked== true) {
+        category = category +" "+ document.getElementById('gridCheck2').value;
+      }
+      else if (document.getElementById('gridCheck3').checked== true) {
+        category =category +" "+ document.getElementById('gridCheck3').value;
+      }
+      payload = {
+        "Name":name,
+        "Date":date,
+        "Feedbacktitle":inputAddress,
+        "Messagebox":inputAddress2,
+        "Gender":gender,
+        "Category":category
+
+      }
+      console.log(payload)
+       alert(JSON.stringify(payload));
+       window.location.reload();
+       return false;
+   }
+}
+</script>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="name" style="color: white;">Name</label>
+      <input type="text" class="form-control" id="name" placeholder="name">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="date" style="color: white;">Date</label>
+      <input type="date" class="form-control" id="date" placeholder="date">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress" style="color: white;">Feedback Title</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2" style="color: white;">Message Box</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Enter your message here">
+  </div>
+
+  <fieldset class="form-group">
+    <div class="row">
+      <legend class="col-form-label col-sm-2 pt-0" style="color: white;">Gender</legend>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="male" checked>
+          <label class="form-check-label" for="gridRadios1" style="color: white;">
+            Male
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="female">
+          <label class="form-check-label" for="gridRadios2" style="color: white;">
+            Female
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="others">
+          <label class="form-check-label" for="gridRadios3" style="color: white;">
+            Others
+          </label>
+        </div>
+      </div>
+    </div>
+  </fieldset>
+  <!-- <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity" style="color: white;">Category</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    
+    
+  </div> -->
+
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck1" value="category1">
+      <label class="form-check-label" for="gridCheck" style="color: white;">
+        Category1
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck2" value="category2">
+      <label class="form-check-label" for="gridCheck" style="color: white;">
+        Category2
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck3" value="category3">
+      <label class="form-check-label" for="gridCheck" style="color: white;">
+        Category3
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary" id="send">Submit</button>
+</form>
+    
+
+    
+          </div>
+        </div>
+      
+
+
+
+  
+
+
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-muted text-center py-3 mt-5">
+        <h5>
+          
+          <a class="text-warning text-decoration-none" href="#"
+            >Monalisa Patra</a
+          >
+        </h5>
+      </div>
+    </footer>
+  </body>
+</html>
